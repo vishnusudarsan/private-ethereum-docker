@@ -46,6 +46,6 @@ See `files/genesis.json`.
 
 To get attached to the `geth` JavaScript console on the node you can run the following
 ```
-docker exec -it ethereumdocker_eth_1 geth attach ipc://root/.ethereum/devchain/geth.ipc
+docker exec -it ethereumdocker_eth geth attach ipc://root/.ethereum/devchain/geth.ipc
 ```
 Then you can `miner.start()`, and then check to see if it's mining by inspecting `web3.eth.mining`. 
