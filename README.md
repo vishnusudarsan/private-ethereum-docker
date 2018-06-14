@@ -1,4 +1,4 @@
-# private-ethereum-docker
+# Private Ethereum Network in Docker
 It's a repository to create Private ethereum blockchain network with 10 nodes in a docker.
 
 # Getting started
