@@ -1,5 +1,5 @@
 # Private Ethereum Network in Docker
-It's a repository to create Private ethereum blockchain network with 10 nodes in a docker.
+It's a repository to create Private ethereum blockchain network with 10 nodes in a docker container.
 
 # Getting started
 
@@ -37,7 +37,7 @@ docker-compose scale eth=3
 ```
 ### Test accounts ready for use
 
-As part of the bootstrapping process we bootstrap 10 Ethereum accounts for use pre-filled with 20 Ether for use in transactions by default.
+As part of the bootstrapping process we bootstrap 10 Ethereum accounts for use pre-filled with 100 Ether for use in transactions by default.
 
 If you want to change the amount of Ether for those accounts
 See `files/genesis.json`.
